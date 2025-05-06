@@ -1,0 +1,49 @@
+
+
+/*========================== */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.clearfix{
+    clear: both;
+    display: table;
+}
+
+
+.navbar{
+    width: 100%;
+    
+}
+.navitemlist{
+    width: 60%;
+
+}
+.logo{
+    width: 40%;
+  
+}
+.logo img{
+  
+    height: 100%;
+}
+.navitemlist ul li{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #714135;
+    margin-left: 10px;
+    border-radius: 3px;
+    color: #714135;
+}
+.navitemlist a{
+    text-decoration: none;
+    color: #714135;
+}

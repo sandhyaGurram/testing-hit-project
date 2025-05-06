@@ -1,0 +1,10 @@
+p{
+    text-align: start;
+}
+.address{
+    display: flex;
+    align-items: flex-start;
+}
+input,select,textarea{
+    margin-bottom: 5px;
+}
